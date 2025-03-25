@@ -15,6 +15,7 @@ let frontendRouter = require('./frontendRouter')
 
 
 
+
 app.use(express.json())
 app.use(cors())
 app.use('/route',backendRouter)
@@ -36,6 +37,7 @@ const uri = MONGO_URI;
 mongoose.connect(uri, {
     
     
+
 
 }).then(() => {
     console.log('Successfully connected to MongoDB');
