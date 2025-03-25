@@ -6,7 +6,7 @@ let path = require('path')
 let cors = require('cors')
 
 require("dotenv").config()
-let port = process.env.port
+let port = process.env.PORT
 let MONGO_URI = process.env.MONGO_URI
 
 let backendRouter = require('./router')
