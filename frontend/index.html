@@ -1,153 +1,180 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" type="image/x-icon" href="images//oicon.ico">
+    <head>
+        <title>Projects</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="icon" type="image/x-icon" href="images/oicon.ico">
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            /* Custom responsive styles */
+            @media screen and (max-width: 736px) {
+                .fields .field {
+                    width: 100%;
+                    margin-bottom: 1.5rem;
+                }
+                .fields input, .fields textarea {
+                    width: 100%;
+                    max-width: 100%;
+                    box-sizing: border-box;
+                }
+                .actions li {
+                    margin-left: 0 !important;
+                    text-align: center;
+                }
+                .post.featured .image.main img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                .posts .image.fit img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                .button.large {
+                    width: 100%;
+                    display: block;
+                }
+            }
+            @media screen and (min-width: 737px) {
+                .fields input, .fields textarea {
+                    width: 90%;
+                    max-width: 700px;
+                }
+                .actions li {
+                    margin-left: auto;
+                }
+            }
+            .fields .field {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .image.main img, .image.fit img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+        <!-- Wrapper -->
+        <div id="wrapper" class="fade-in">
+            <!-- Intro -->
+            <div id="intro">
+                <h1>Projects</h1>
+                <p>Explore my projects, visualize my analytical journey, and see how I transform data into actionable intelligence. <br> Whether you’re here to collaborate, learn, or just curious, I’m excited to share my work with you.</p>
+                <ul class="actions">
+                    <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                </ul>
+            </div>
 
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo">Projects</a>
+            </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="aboutMe.html">About Me</a></li>
+                    <li class="active"><a href="index.html">Projects</a></li>
+                    <li><a href="elements.html">Credential</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/olakunle-owodunni-370850a6/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://twitter.com/Eskaycloud" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://github.com/Eskaylee" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
+            </nav>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Projects</h1>
-						<p>Explore my projects, visualize my analytical journey, and see how I transform data into actionable intelligence. <br> Whether you’re here to collaborate, learn, or just curious, I’m excited to share my work with you.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+            <!-- Main -->
+            <div id="main">
+                <!-- Featured Post -->
+                <article class="post featured">
+                    <header class="major">
+                        <h2>POWER BI Projects</h2>
+                    </header>
+                    <p class="image main"><img src="images/powe.png" alt="This is an image of PowerBI" /></p>
+                    <ul class="actions special">
+                        <li><a href="./powerBi.html" class="button large">Full Story</a></li>
+                    </ul>
+                </article>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Projects</a>
-					</header>
+                <!-- Posts -->
+                <section class="posts">
+                    <article>
+                        <header>
+                            <h2>SQL PROJECTS</h2>
+                        </header>
+                        <p class="image fit"><img src="images/sql2-removebg-preview.png" alt="" /></p>
+                        <ul class="actions special">
+                            <li><a href="/sql.html" class="button">Full Story</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <header>
+                            <h2>PYTHON Projects</h2>
+                        </header>
+                        <p class="image fit"><img src="images/python.jpg" alt="" /></p>
+                        <ul class="actions special">
+                            <li><a href="/python.html" class="button">Full Story</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <header>
+                            <h2>R Projects</h2>
+                        </header>
+                        <p class="image fit"><img src="images/r.jpg" alt="" /></p>
+                        <ul class="actions special">
+                            <li><a href="#" class="button">Full Story</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <header>
+                            <h2>Excel projects</h2>
+                        </header>
+                        <p class="image fit"><img src="images/excel.jpg" alt="" /></p>
+                        <ul class="actions special">
+                            <li><a href="#" class="button">Full Story</a></li>
+                        </ul>
+                    </article>
+                </section>
+            </div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="aboutMe.html">About Me</a></li>
-							<li class="active"><a href="index.html">Projects</a></li>
-							<li><a href="elements.html"> Credential</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/olakunle-owodunni-370850a6/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://twitter.com/Eskaycloud" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://github.com/Eskaylee" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+            <!-- Footer -->
+            <footer id="footer">
+                <section>
+                    <form method="post" id="form">
+                        <div class="fields">
+                            <div class="field">
+                                <h4 for="name" style="text-align: center; margin-bottom: 10px;">Name</h4>
+                                <input type="text" name="name" id="name" style="border-radius: 10px;" />
+                            </div>
+                            <div class="field">
+                                <h4 for="email" style="text-align: center; margin-bottom: 10px;">Email</h4>
+                                <input type="email" name="email" id="email" style="border-radius: 10px;" />
+                            </div>
+                            <div class="field">
+                                <h4 for="message" style="text-align: center; margin-bottom: 10px;">Message</h4>
+                                <textarea name="message" id="message" rows="3" style="border-radius: 10px;"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" class="button" /></li>
+                        </ul>
+                    </form>
+                </section>
+            </footer>
 
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>POWER BI Projects</h2>
-								</header>
-								<p  class="image main"><img src="images/powe.png" alt="This is an image of PowerBI" /></p>
-								<ul class="actions special">
-									<li><a href="./powerBi.html" class="button large">Full Story</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2>SQL PROJECTS</h2>
-									</header>
-									<p class="image fit"><img src="images/sql2-removebg-preview.png" alt="" /></p>
-									<ul class="actions special">
-										<li><a href="/sql.html" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>PYTHON Projects</h2>
-									</header>
-									<p class="image fit"><img src="images/python.jpg" alt="" /></p>
-									<ul class="actions special">
-										<li><a href="/python.html" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>R Projects</h2>
-									</header>
-									<p class="image fit"><img src="images/r.jpg" alt="" /></p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Excel projects</h2>
-									</header>
-									<p class="image fit"><img src="images/excel.jpg" alt="" /></p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								
-								
-							</section>
-
-						<!-- Footer -->
-							
-					</div>
-
-				<!-- Footer -->
-				<footer id="footer">
-					<section>
-						<form method="post" id="form" >
-							<div class="fields">
-								<div class="field" style="display: flex; flex-direction: column; align-items: center;">
-									<h4 for="name" style="display: block;text-align: center;margin-bottom: 10px;">Name</h4>
-									<input type="text" name="name" id="name" style="border-radius: 10px; width: 700px; padding-right: 50px;" />
-								</div>
-								<div class="field" style="display: flex; flex-direction: column; align-items: center;">
-									<h4 for="email" style="display: block;text-align: center;margin-bottom: 10px; width: 700px;" >Email</h4>
-									<input type="text" name="email" id="email" style="border-radius: 10px; width: 700px;" />
-								</div>
-								<div class="field" style="display: flex; flex-direction: column; align-items: center;">
-									<h4 for="message" style="display: block;text-align: center;margin-bottom: 10px;">Message</h4>
-									<textarea name="message" id="message" rows="3" style="border-radius: 10px; width: 700px;"></textarea>
-								</div>
-							</div>
-							<ul class="actions">
-								<li style="margin-left: 400px;"><input type="submit" value="Send Message" /></li>
-							</ul>
-						</form>
-					</section>
-					
-				</footer>
-
-				<!-- Copyright -->
-					
-
-			</div>
-
-		<!-- Scripts -->
-		<script src="userMessage.js"></script>
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+            <!-- Scripts -->
+            <script src="userMessage.js"></script>
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+        </div>
+    </body>
 </html>
