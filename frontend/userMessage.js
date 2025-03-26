@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
 
 async function sendMessage(data) {
     try {
-        const request = await fetch('http://localhost:2000/route', {
+        const request = await fetch('/route', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json', // Corrected capitalization
