@@ -18,12 +18,12 @@ async function sendMessage(data) {
         const request = await fetch('/route', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json', // Corrected capitalization
+                'Content-Type': 'application/json', 
             },
             body: JSON.stringify(data),
         });
         
-        // Wait for the response to be parsed
+        
         const response = await request.json();
         
         if (request.ok) { // Check if the response status is OK
